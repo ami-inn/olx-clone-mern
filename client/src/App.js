@@ -11,7 +11,9 @@ import Home from './Pages/Home';
 import { authContext } from './context/AuthContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Search from './Pages/Search';
-import Login from './Components/Login/Login';
+import LoginPage from './Pages/Login';
+import CreatePage from './Pages/Create';
+
 
 function App() {
 
@@ -40,7 +42,7 @@ function App() {
 
         <Routes>
 
-      <Route path='/login' element={<Login />} />
+        <Route path='/sell' element={<CreatePage />} />
         </Routes>
 
      
