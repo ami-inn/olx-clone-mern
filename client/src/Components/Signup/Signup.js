@@ -31,6 +31,7 @@ export default function Signup() {
     console.log(data)
     if(!data.error){
       setRefresh(!refresh)
+      alert('success')
     }else{
       setErrMsg(data.message)
     }
