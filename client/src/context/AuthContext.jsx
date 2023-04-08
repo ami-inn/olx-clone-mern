@@ -3,6 +3,7 @@ import React, {createContext, useState} from 'react'
 export const authContext=createContext(null)
 
 function AuthContext({children}) {
+  console.log('children', children)
   const [user, setUser]=useState({ login: null})
   const [search, setSearch]=useState("")
   const [category, setCategory]=useState(" ")

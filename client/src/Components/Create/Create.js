@@ -38,8 +38,8 @@ const Create = () => {
     if (data.error) {
       setErrMsg(data.error.message);
     } else {
-        alert('success')
-    //   navigate("/")
+    //     alert('success')
+      navigate("/")
     }
   }
   return (

@@ -27,7 +27,7 @@ function Login() {
       });
       if(!data.error){
         setRefresh(!refresh)
-        alert('sucess')
+      
       }else{
         setErrMsg(data.message)
       }
